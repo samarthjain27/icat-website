@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: whitesmoke;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    top: 23px;
+    left: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 15px;
+    font-weight: 900;
+}
+
+nav ul li {
+    margin-right: 100px;
+    position: relative;
+    left: 35px;
+}
+
+nav ul li a {
+    color: #2d2e56;;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content li a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.apply-now {
+    background-color: red;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    left: 1100px;
+    bottom: 42px;
+    font-weight: bold;
+    animation: glowing 1500ms infinite alternate;
+}
+@keyframes glowing {
+    0% {
+      box-shadow: 0 0 10px red;
+    }
+    100% {
+      box-shadow: 0 0 20px red;
+    }
+  }
+  .apply-now:active{
+    transform: scale(0.98);
+  }
+  #h2{
+    color: #2d2e56;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 9.5%;
+    font-weight: 700;
+  }
+#p1{
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #105ba2;
+}
+.collegeinfo{
+    height: 20vh;
+    width: 100%;
+}
+#campusiconimg{
+    height: 10vh;
+    width: 5vw;
+    position: relative;
+    left: 70px;
+    top: 40px;
+}
+#campuscount{
+    font-size: 350%;
+    font-weight: bolder;
+    position: relative;
+    left: 140px;
+    bottom: 65px;
+    color: #2d2e56;;
+}
+#campusestext{
+    color: #18193b;
+    position: relative;
+    bottom: 65px;
+    left: 140px;
+    font-size: 80%;
+}
+#alumniiconimg{
+    height: 11vh;
+    width: 5vw;
+    position: relative;
+    bottom: 134px;
+    left: 330px;
+}
+#alumnicount{
+    position: relative;
+    bottom: 248px;
+    left: 390px;
+    font-size: 300%;
+    font-weight: bolder;
+    color: #2d2e56;
+}
+#alumnitext{
+    color: #18193b;
+    position: relative;
+    bottom: 245px;
+    left: 395px;
+    font-size: 80%;
+}
+#professionalinstructoriconimg{
+    height: 10vh;
+    width: 5vw;
+    position: relative;
+    bottom: 328px;
+    left: 680px;
+}
+#professionalinstructorcount{
+    position: relative;
+    bottom: 431px;
+    left: 750px;
+    font-size: 300%;
+    font-weight: bolder;
+    color: #2d2e56;
+}
+#professionalinstructortext{
+    color: #18193b;
+    position: relative;
+    bottom: 430px;
+    left: 760px;
+    font-size: 80%;
+}
+#placementpartnericonimg{
+    height: 24vh;
+    width: 12vw;
+    position: relative;
+    bottom: 565px;
+    left: 940px;
+}
+#placementpartnercount{
+    position: relative;
+    bottom: 710px;
+    left: 1060px;
+    font-size: 300%;
+    font-weight: bolder;
+    color: #2d2e56;
+}
+#placementpartnerstext{
+    color: #18193b;
+    position: relative;
+    bottom: 705px;
+    left: 1063px;
+    font-size: 80%;
+}
+main {
+    padding: 20px 0;
+}
+section {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer p {
+    margin: 0;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#eventsaticat{
+    font-size: 50px;
+    font-weight: 700;
+    color: #2d2e56;
+}
+.events-section{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.campuses-section{
+    height: 125vh;
+    width: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+    letter-spacing: 1.6px;
+    padding-top: 20px;
+}
+.campuses-section:before{
+    content: "";
+    display: block;
+    width: 550px;
+    height: 2px;
+    background: #000;
+    left: 0;
+    top: 280%;
+    position: absolute;
+    color: #fe4c69;
+}
+.campuses-section:after{
+    content: "";
+    display: block;
+    width: 550px;
+    height: 2px;
+    background: #000;
+    right: 0;
+    top: 280%;
+    position: absolute;
+    color: #fe4c69;
+}
+
+#campuses{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fe4c69;
+    padding: 10px;
+}
+#stateoftheartcampuses{
+    font-size: 42px;
+    color: #2d2e56;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+#aboutcampusparagraph{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    list-style: none;
+}
+.cards{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    height: 60vh;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.footer{
+    height: 80vh;
+    width: 100%;
+    color: #222222;
+}
+#footerimg1{
+    height: 10%;
+    width: 10%;
+    position: relative;
+    right: 540px;
+}
+#ugdegreeprograms{
+    font-weight: 900;
+    position: relative;
+    right: 502px;
+    top: 40px;
+    color: whitesmoke;
+}
+.ugdegreeheadings{
+    color: whitesmoke;
+
+}
